@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Support - VeloraCare</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8f9fb;
+            color: #1e2330;
+            line-height: 1.7;
+        }
+        .nav {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            padding: 14px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-brand {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #2e73d1;
+            text-decoration: none;
+        }
+        .nav-links a {
+            color: #4b5563;
+            text-decoration: none;
+            margin-left: 24px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .nav-links a:hover { color: #2e73d1; }
+        .header {
+            background: linear-gradient(135deg, #2e73d1 0%, #5b9cf0 100%);
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+        }
+        .header h1 { font-size: 2.2rem; margin-bottom: 8px; }
+        .header p { opacity: 0.85; font-size: 1rem; }
+        .content {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 50px 24px 80px;
+        }
+        .content h2 {
+            font-size: 1.4rem;
+            margin: 36px 0 14px;
+            color: #2e73d1;
+        }
+        .content h2:first-child { margin-top: 0; }
+        .content p {
+            margin-bottom: 14px;
+            color: #4b5563;
+            font-size: 0.95rem;
+        }
+        .faq-item {
+            background: white;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .faq-item h3 {
+            font-size: 1rem;
+            color: #1e2330;
+            margin-bottom: 8px;
+        }
+        .faq-item p {
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+        .contact-card {
+            background: linear-gradient(135deg, #e8f0fe 0%, #f0f5ff 100%);
+            border-radius: 16px;
+            padding: 32px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .contact-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: #1e2330;
+        }
+        .contact-card p {
+            color: #6b7280;
+            margin-bottom: 16px;
+        }
+        .contact-card a {
+            display: inline-block;
+            background: #2e73d1;
+            color: white;
+            padding: 10px 28px;
+            border-radius: 24px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+        .contact-card a:hover { background: #1d5bb0; }
+        .requirements {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .requirements h3 {
+            font-size: 1rem;
+            margin-bottom: 12px;
+            color: #1e2330;
+        }
+        .requirements ul {
+            list-style: none;
+            padding: 0;
+        }
+        .requirements ul li {
+            padding: 6px 0;
+            color: #4b5563;
+            font-size: 0.9rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .requirements ul li:last-child { border-bottom: none; }
+        .requirements ul li::before {
+            content: '✓ ';
+            color: #2e73d1;
+            font-weight: bold;
+        }
+        footer {
+            background: #1e2330;
+            color: #9ca3af;
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+        footer a { color: #5b9cf0; text-decoration: none; margin: 0 12px; }
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.6rem; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="nav-brand">VeloraCare</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy</a>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1>Technical Support</h1>
+        <p>We're here to help you get the most out of VeloraCare</p>
+    </div>
+
+    <div class="content">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>How do I start a new flossing session?</h3>
+            <p>Open the app and tap the "Start New Session" button on the Ritual tab. You can use the built-in timer or manually enter your session duration. Follow the guided steps to record your technique, areas covered, and comfort level.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Where is my data stored?</h3>
+            <p>All your data is stored locally on your device. We do not upload or sync your information to any external server. Your records remain private and accessible only to you.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I export my records?</h3>
+            <p>Go to Settings > Data > Export Data. Your records will be exported as a CSV file that you can save, share, or open in any spreadsheet application.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I change my daily goal?</h3>
+            <p>Yes! Navigate to Settings > Daily Goal. You can adjust the number of target sessions per day (1-5) and configure reminder notifications.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What does the streak counter track?</h3>
+            <p>The streak counter shows the number of consecutive days you've completed at least one flossing session. Missing a day will reset the counter, encouraging consistent daily habits.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I delete a session record?</h3>
+            <p>In the Journal tab, find the session you want to remove, swipe left on the record card, and tap Delete. Please note that deleted records cannot be recovered.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>The app is not responding. What should I do?</h3>
+            <p>Try force-closing the app and reopening it. If the issue persists, restart your device. If you continue experiencing problems, please contact us using the email below.</p>
+        </div>
+
+        <h2>System Requirements</h2>
+        <div class="requirements">
+            <h3>Minimum Requirements</h3>
+            <ul>
+                <li>iOS 14.0 or later</li>
+                <li>iPhone compatible</li>
+                <li>Approximately 30 MB of storage space</li>
+                <li>No internet connection required</li>
+            </ul>
+        </div>
+
+        <div class="contact-card">
+            <h3>Still Need Help?</h3>
+            <p>Our support team is ready to assist you with any questions or issues.</p>
+            <a href="mailto:veloracare.app@gmail.com">Contact Support</a>
+        </div>
+    </div>
+
+    <footer>
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <p style="margin-top: 12px;">&copy; 2026 VeloraCare. All rights reserved.</p>
+    </footer>
+</body>
+</html>
