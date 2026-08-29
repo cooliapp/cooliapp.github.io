@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbelle - Hoop Training Companion</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #1e2125;
+            background: #f2f4f7;
+            line-height: 1.6;
+        }
+        .hero {
+            background: linear-gradient(135deg, #f97a52 0%, #e85d3a 100%);
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+            margin: 40px 0;
+        }
+        .feature-card {
+            background: white;
+            border-radius: 16px;
+            padding: 28px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            transition: transform 0.2s;
+        }
+        .feature-card:hover {
+            transform: translateY(-4px);
+        }
+        .feature-card .icon {
+            width: 48px;
+            height: 48px;
+            background: #f97a52;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            font-size: 22px;
+        }
+        .feature-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: #1e2125;
+        }
+        .feature-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        .section-subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1rem;
+        }
+        .footer {
+            background: #1e2125;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: #f97a52;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer p {
+            margin-top: 16px;
+            opacity: 0.6;
+            font-size: 0.85rem;
+        }
+        .app-badge {
+            display: inline-block;
+            margin-top: 24px;
+            padding: 14px 32px;
+            background: white;
+            color: #1e2125;
+            border-radius: 30px;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background 0.2s;
+        }
+        .app-badge:hover {
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Orbelle</h1>
+        <p>Your personal hoop training companion. Track sessions, build routines, and discover insights about your progress.</p>
+        <a href="#features" class="app-badge">Explore Features</a>
+    </div>
+
+    <div class="container" id="features">
+        <h2 class="section-title">Built for Your Practice</h2>
+        <p class="section-subtitle">Everything you need to maintain a balanced training routine</p>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="icon">&#9878;</div>
+                <h3>Session Tracking</h3>
+                <p>Log duration, rotations, calories, and intensity for each training session with intuitive controls.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#128197;</div>
+                <h3>Daily Routines</h3>
+                <p>Build structured warm-up, training, and cool-down routines with smart time-based reminders.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#128200;</div>
+                <h3>Visual Insights</h3>
+                <p>Track trends over weeks and months with clear charts showing calories, duration, and intensity.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#127919;</div>
+                <h3>Weekly Goals</h3>
+                <p>Set personalized targets for sessions, duration, and calories. Watch your progress rings fill up.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#128293;</div>
+                <h3>Streak Tracking</h3>
+                <p>Stay motivated with consecutive day tracking. Build habits that last through visible streaks.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#128516;</div>
+                <h3>Mood Logging</h3>
+                <p>Record how you feel after each session to understand the connection between movement and mood.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="privacy">Privacy Policy</a>
+        <a href="support">Technical Support</a>
+        <p>&copy; 2026 Orbelle. All rights reserved.</p>
+    </div>
+</body>
+</html>
