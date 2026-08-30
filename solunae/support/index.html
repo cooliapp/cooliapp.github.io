@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Support - Solunae</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+            background: #FDFBF7;
+            color: #2D2B28;
+            line-height: 1.7;
+        }
+        
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #E8863A;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 32px;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #1A1815;
+        }
+        
+        .subtitle {
+            font-size: 1rem;
+            color: #6B6560;
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #1A1815;
+        }
+        
+        p {
+            margin-bottom: 16px;
+            color: #4A4540;
+            font-size: 0.95rem;
+        }
+        
+        .faq-section {
+            margin-top: 32px;
+        }
+        
+        .faq-item {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 12px;
+            border: 1px solid #F0ECE6;
+        }
+        
+        .faq-item h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #1A1815;
+        }
+        
+        .faq-item p {
+            margin-bottom: 0;
+            font-size: 0.9rem;
+        }
+        
+        .contact-card {
+            background: linear-gradient(135deg, #FFF8ED, #FFF3E0);
+            border-radius: 16px;
+            padding: 28px;
+            margin-top: 40px;
+            text-align: center;
+            border: 1px solid #F5E6D0;
+        }
+        
+        .contact-card h2 {
+            margin-top: 0;
+            font-size: 1.3rem;
+        }
+        
+        .contact-card p {
+            color: #6B6560;
+        }
+        
+        .contact-email {
+            display: inline-block;
+            margin-top: 12px;
+            background: linear-gradient(135deg, #F2AD47, #E8863A);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .contact-email:hover {
+            opacity: 0.9;
+        }
+        
+        .system-req {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #F0ECE6;
+            margin-top: 16px;
+        }
+        
+        .system-req ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .system-req li {
+            padding: 8px 0;
+            border-bottom: 1px solid #F8F5F0;
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+        }
+        
+        .system-req li:last-child {
+            border-bottom: none;
+        }
+        
+        .system-req .label {
+            color: #6B6560;
+        }
+        
+        .system-req .value {
+            color: #1A1815;
+            font-weight: 500;
+        }
+        
+        .footer-nav {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #F0ECE6;
+            text-align: center;
+        }
+        
+        .footer-nav a {
+            color: #E8863A;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .footer-nav a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container { padding: 40px 20px; }
+            h1 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../" class="back-link">&larr; Back to Home</a>
+        
+        <h1>Technical Support</h1>
+        <p class="subtitle">Find answers to common questions or reach out to our team.</p>
+        
+        <h2>System Requirements</h2>
+        <div class="system-req">
+            <ul>
+                <li><span class="label">Platform</span><span class="value">iOS</span></li>
+                <li><span class="label">Minimum Version</span><span class="value">iOS 14.0</span></li>
+                <li><span class="label">Storage</span><span class="value">~25 MB</span></li>
+                <li><span class="label">Network</span><span class="value">Not Required</span></li>
+                <li><span class="label">Account</span><span class="value">Not Required</span></li>
+            </ul>
+        </div>
+        
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <h3>How do I log a session?</h3>
+                <p>Navigate to the Pulse tab and tap the + button in the top right corner. Fill in your session details including duration, intensity, and body area.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Is my data backed up?</h3>
+                <p>All data is stored locally on your device. If you back up your iPhone through iCloud or iTunes, your app data will be included in that backup.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How do I reset my data?</h3>
+                <p>Go to Settings and scroll down to the Data section. Tap "Reset All Data" to permanently remove all records. This action cannot be undone.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Can I change my daily goal?</h3>
+                <p>Yes, go to Settings and adjust the Daily Goal slider to set your preferred target between 10 minutes and 2 hours.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How does the streak work?</h3>
+                <p>Your streak increases by one each day you log at least one session. If you miss a day, the streak resets. Your longest streak is always recorded in the Progress tab.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>The app is not working properly. What should I do?</h3>
+                <p>Try closing and reopening the app. If the issue persists, please contact our support team with details about the problem.</p>
+            </div>
+        </div>
+        
+        <div class="contact-card">
+            <h2>Need More Help?</h2>
+            <p>Our support team is here to assist you. We typically respond within 24 hours.</p>
+            <a href="mailto:solunae.app@outlook.com" class="contact-email">Contact Support</a>
+        </div>
+        
+        <div class="footer-nav">
+            <a href="../privacy">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="../">Home</a>
+        </div>
+    </div>
+</body>
+</html>
